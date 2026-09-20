@@ -1,0 +1,23 @@
+Volumen — app independiente (PWA)
+
+Estos archivos son la app completa. Para tenerla en el teléfono hay que
+subirlos a un sitio web propio (por ejemplo GitHub Pages, gratis) y luego
+agregar esa página a la pantalla de inicio desde Safari.
+
+Archivos:
+  index.html            la app
+  manifest.json         nombre, ícono y modo "app" para la pantalla de inicio
+  sw.js                 permite abrirla sin conexión
+  icon-192.png, icon-512.png, apple-touch-icon.png   íconos
+
+Pasos con GitHub Pages:
+  1. Crear una cuenta en github.com (si no tenés).
+  2. New repository → nombre "volumen" → Public → Create repository.
+  3. "Upload files" → arrastrar estos 6 archivos (sin carpeta) → Commit changes.
+  4. Settings → Pages → Build and deployment → Source: "Deploy from a branch"
+     → Branch: main, carpeta / (root) → Save.
+  5. En uno o dos minutos la app queda en https://TU-USUARIO.github.io/volumen/
+  6. Abrir esa dirección en Safari → Compartir → "Añadir a pantalla de inicio".
+
+Los datos se guardan solo en el teléfono. En Ajustes → "Guardar respaldo"
+podés exportar todo a un archivo (Archivos / iCloud) y restaurarlo después.
